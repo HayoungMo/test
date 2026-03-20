@@ -4,7 +4,8 @@ const Test1 = () => {
     return (
         <div>
            김인호 
-                </div>
+           확인
+        </div>
     );
 };
 
