@@ -20,6 +20,10 @@ const MapTest = () => {
         const map = new kakao.maps.Map(container,options);//지도 생성 및 객체 리턴
         
         //여기서 데이터 돌면서 마커 생성
+
+        //장소의 위치를 db에서 가져오는 식으로
+        //마커를 눌렀을때 그 장소의 이름, 주소, 전화번호 등 간단한 정보가 뜨게
+        //상세보기를 누르면 해당 장소의 상세정보 페이지로 이동
          markerTestData.map((item) => {
             new kakao.maps.Marker({
                 map:map,
